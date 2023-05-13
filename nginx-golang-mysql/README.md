@@ -58,7 +58,7 @@ Make sure port 80 on the host is not already being in use.
 > You still can use the MySQL image by uncommenting the following line in the Compose file   
 > `#image: mysql:8`
 
-## Deploy with docker compose
+## Deploy with docker compose (docker compose up -d)
 
 ```shell
 $ docker compose up -d
