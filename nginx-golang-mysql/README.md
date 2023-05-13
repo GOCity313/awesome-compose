@@ -75,9 +75,16 @@ Creating nginx-golang-mysql_backend_1 ... done
 Creating nginx-golang-mysql_proxy_1   ... done
 ```
 
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/8a4de4f7-5ddc-48d5-adea-fc899003ac6a)
+
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/7a382cc7-d722-48c5-8a6d-ed6cdc7badca)
+
 ## Expected result
 
 Listing containers must show three containers running and the port mapping as below:
+
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/00ca7019-4650-47ea-9d1f-4fafb11d516a)
+
 ```shell
 $ docker compose ps
 NAME                           COMMAND                  SERVICE             STATUS              PORTS
@@ -86,12 +93,19 @@ nginx-golang-mysql-db-1        "docker-entrypoint.s…"   db                  ru
 nginx-golang-mysql-proxy-1     "/docker-entrypoint.…"   proxy               running             0.0.0.0:80->80/tcp
 l_db_1
 ```
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/a51c6a5e-b643-4278-b970-ae15adffe663)
+
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/4b17d941-1ea0-4582-94a1-e74351afa06b)
 
 After the application starts, navigate to `http://localhost:80` in your web browser or run:
 ```shell
 $ curl localhost:80
 ["Blog post #0","Blog post #1","Blog post #2","Blog post #3","Blog post #4"]
 ```
+from Docker Deskstop :
+
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/2a1dd6e3-71d0-49fa-90b9-8ee47785293c)
+
 
 Stop and remove the containers
 ```shell
