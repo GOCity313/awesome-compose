@@ -106,6 +106,8 @@ from Docker Deskstop :
 
 ![image](https://github.com/GOCity313/awesome-compose/assets/126258837/2a1dd6e3-71d0-49fa-90b9-8ee47785293c)
 
+![image](https://github.com/GOCity313/awesome-compose/assets/126258837/5c89b456-ea1c-4be6-a745-529d82187c66)
+
 
 Stop and remove the containers
 ```shell
